@@ -1,0 +1,160 @@
+{
+  "title": "DSA Easy Test",
+  "questions": [
+    {
+      "id": 1,
+      "type": "single",
+      "prompt": "Which of the following data structures works on the principle of LIFO (Last In, First Out)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Queue",
+          "points": 2,
+          "is_correct": false
+        },
+        {
+          "id": "b",
+          "text": "Stack",
+          "points": 7,
+          "is_correct": true
+        },
+        {
+          "id": "c",
+          "text": "Linked List",
+          "points": 4,
+          "is_correct": false
+        },
+        {
+          "id": "d",
+          "text": "Binary Tree",
+          "points": 3,
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "single",
+      "prompt": "What is the time complexity of searching an element in a sorted array using binary search?",
+      "options": [
+        {
+          "id": "a",
+          "text": "O(n)",
+          "points": 1,
+          "is_correct": false
+        },
+        {
+          "id": "b",
+          "text": "O(log n)",
+          "points": 4,
+          "is_correct": true
+        },
+        {
+          "id": "c",
+          "text": "O(n log n)",
+          "points": 1,
+          "is_correct": false
+        },
+        {
+          "id": "d",
+          "text": "O(1)",
+          "points": 6,
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "single",
+      "prompt": "Which of the following is a linear data structure?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Stack",
+          "points": 15,
+          "is_correct": true
+        },
+        {
+          "id": "b",
+          "text": "Graph",
+          "points": 10,
+          "is_correct": false
+        },
+        {
+          "id": "c",
+          "text": "Binary Tree",
+          "points": 11,
+          "is_correct": false
+        },
+        {
+          "id": "d",
+          "text": "Hash Table",
+          "points": 12,
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "multi",
+      "prompt": "Which of the following are applications of stack?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Undo/Redo operations in text editors",
+          "points": 4,
+          "is_correct": true
+        },
+        {
+          "id": "b",
+          "text": "Recursive function calls",
+          "points": 3,
+          "is_correct": true
+        },
+        {
+          "id": "c",
+          "text": "Page replacement algorithms",
+          "points": 6,
+          "is_correct": false
+        },
+        {
+          "id": "d",
+          "text": "Infix to postfix conversion",
+          "points": 2,
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "single",
+      "prompt": "Which of the following are non-linear data structures?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Linked List",
+          "points": 7,
+          "is_correct": false
+        },
+        {
+          "id": "b",
+          "text": "Graph",
+          "points": 4,
+          "is_correct": true
+        },
+        {
+          "id": "c",
+          "text": "Stack",
+          "points": 2,
+          "is_correct": false
+        },
+        {
+          "id": "d",
+          "text": "Tree",
+          "points": 4,
+          "is_correct": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "title": "General Knowledge Demo",
+  "questions": [
+    {
+      "id": 1,
+      "type": "single",
+      "prompt": "Which planet is known as the Red Planet?",
+      "options": [
+        { "id": "a", "text": "Venus",   "points": 10, "is_correct": false },
+        { "id": "b", "text": "Mars",    "points": 15, "is_correct": true  },
+        { "id": "c", "text": "Jupiter", "points": 4,  "is_correct": false }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "multi",
+      "prompt": "Select all prime numbers:",
+      "options": [
+        { "id": "a", "text": "2", "points": 7, "is_correct": true  },
+        { "id": "b", "text": "4", "points": 1, "is_correct": false },
+        { "id": "c", "text": "5", "points": 8, "is_correct": true  },
+        { "id": "d", "text": "9", "points": 2, "is_correct": false }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "single",
+      "prompt": "Capital of France is…",
+      "options": [
+        { "id": "a", "text": "Rome",   "points": 10, "is_correct": false },
+        { "id": "b", "text": "Paris",  "points": 20, "is_correct": true  },
+        { "id": "c", "text": "Berlin", "points": 5,  "is_correct": false }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "multi",
+      "prompt": "Pick programming languages:",
+      "options": [
+        { "id": "a", "text": "Python", "points": 6, "is_correct": true  },
+        { "id": "b", "text": "HTML",   "points": 2, "is_correct": false },
+        { "id": "c", "text": "Go",     "points": 4, "is_correct": true  },
+        { "id": "d", "text": "CSS",    "points": 4, "is_correct": false }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "single",
+      "prompt": "Largest ocean on Earth?",
+      "options": [
+        { "id": "a", "text": "Indian",  "points": 1,  "is_correct": false },
+        { "id": "b", "text": "Pacific", "points": 25, "is_correct": true  },
+        { "id": "c", "text": "Arctic",  "points": 1,  "is_correct": false }
+      ]
+    }
+  ]
+}
