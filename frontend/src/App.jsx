@@ -93,7 +93,7 @@ function CreateTest({ onSaved }) {
     if (questions.length === 0) return setMsg("Add at least one question.");
 
     try {
-      const res = await fetch("http://localhost:5001/api/tests", {
+      const res = await fetch("https://quiz-ladder.onrender.com/api/tests", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ id: testId.trim(), title: title.trim(), questions }),
@@ -277,14 +277,14 @@ export default function App() {
 
   // HOME (tests list)
   useEffect(() => {
-    fetch("http://localhost:5001/api/tests")
+    fetch("https://quiz-ladder.onrender.com/api/tests")
       .then((r) => r.json())
       .then(setTests)
       .catch(console.error);
   }, []);
 
   function refreshTestsAndGoHome() {
-    fetch("http://localhost:5001/api/tests")
+    fetch("https://quiz-ladder.onrender.com/api/tests")
       .then((r) => r.json())
       .then((list) => {
         setTests(list);
@@ -302,7 +302,7 @@ export default function App() {
     setFinished(false);
     setAnimPos(0);
     setView("play");
-    fetch(`http://localhost:5001/api/quiz/${test.id}`)
+    fetch(`https://quiz-ladder.onrender.com/api/quiz/${test.id}`)
       .then((r) => r.json())
       .then((data) => {
         setQuiz(data);
